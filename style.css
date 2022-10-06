@@ -5,10 +5,19 @@
 }
 
 body {
-  background-color: #eed7d7; /* todo hexima decimal entende de 0 até o F */
+  background-color: #ffffff; /* todo hexima decimal entende de 0 até o F */
 }
 ul {
   list-style: none;
+}
+.quadradoprincipal {
+  width: 320px;
+  height: 850px;
+  background: #eed7d7;
+  position: flex;
+  border: solid 2px #cc3000b4;
+  margin-left: 500px;
+  
 }
 /* HEADER */
 header {
@@ -29,7 +38,7 @@ header h1 {
 }
 
 header h1 span {
-  color: #962323;
+  color: #cc3000b4;
 }
 
 section {
@@ -37,7 +46,7 @@ section {
 }
 
 section h2 {
-  background-color: #b67167;
+  background-color: #da978c;
   padding: 8px 16px;
   text-align: center;
   margin-bottom: 24px;
